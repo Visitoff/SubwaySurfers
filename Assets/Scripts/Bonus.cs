@@ -25,7 +25,7 @@ public class Bonus : MonoBehaviour
     }
     void BonusOfTime()
     {//вывод текста бонусов
-        myText.text = string.Format("{0} \r\n Вам доступно {1} бонуса\r\n Ваши очки: {2:0}", bonusValueTime, bonusScoreValue, score);
+        myText.text = string.Format("{0} \r\n \r\n {1}\r\n Ваши очки: {2:0}", bonusValueTime, bonusScoreValue, score);
         time += Time.deltaTime;
         if (Input.GetKeyDown(bonusTimeButton) && bonusValueTime > 0)//замедление времене
         {
