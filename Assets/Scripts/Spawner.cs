@@ -20,7 +20,7 @@ public class Spawner : MonoBehaviour
     
     void Start()
     {
-        movedir = new Vector3(0f, 0f, speed);// присваивание вектора
+        movedir = new Vector3(0f, 0f, speed);// присваивание вектор
     }
 
     void Update()
